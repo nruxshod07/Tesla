@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font/stylesheet.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="car">
+        <div class="openCar"></div>
+        <div class="wheelImg left"><img src="img/wheel-photoaidcom-cropped.png" alt="" /></div>
+        <div class="wheelImg right"><img src="img/wheel-photoaidcom-cropped.png" alt="" /></div>
+        <img class="carImg" src="img/image1car.png" alt="" />
+      </div>
+      <div class="info">
+        <div>
+          <p>Запас хода</p>
+          <h1 class="range">750</h1>
+        </div>
+        <div>
+          <p>Цена</p>
+          <h1 class="price">89990</h1>
+        </div>
+      </div>
+      <div class="settings">
+        <div class="speed div">
+          <div>
+            <p>Скорость автомобиля</p>
+            <h1 class="speedCount">60</h1>
+          </div>
+          <div>
+            <div class="circle" data-type="addSpeed">
+              <img src="img/211624_c_up_arrow_icon.png" alt="" />
+            </div>
+            <div class="circle" data-type="removeSpeed">
+              <img src="img/211615_down_c_arrow_icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="temperature div">
+          <div>
+            <p>Температура за окнами</p>
+            <h1 class="tempCount">20</h1>
+          </div>
+          <div>
+            <div class="circle" data-type="addTemperature">
+              <img src="img/211624_c_up_arrow_icon.png" alt="" />
+            </div>
+            <div class="circle" data-type="removeTemperature">
+              <img src="img/211615_down_c_arrow_icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="wheels div">
+          <div>
+            <p>Диски</p>
+            <h1 class="wheelSize">20</h1>
+          </div>
+          <div>
+            <div class="circle" data-type="addSize">
+              <img src="img/211624_c_up_arrow_icon.png" alt="" />
+            </div>
+            <div class="circle" data-type="removeSize">
+              <img src="img/211615_down_c_arrow_icon.png" />
+            </div>
+          </div>
+        </div>
+        <div class="conditioner">
+          <p>Кондиционер</p>
+          <div class="switch">
+            <div class="switch-btn off"></div>
+          </div>
+        </div>
+        <div class="longRange">
+          <p>Версия Long Range</p>
+          <div class="switch">
+            <div class="switch-btn off"></div>
+          </div>
+        </div>
+        <div class="visibility">
+          <p>Вид автомобиля</p>
+          <div class="switch" style="background-color: blue">
+            <div class="switch-btn carVisibility on"></div>
+          </div>
+        </div>
+      </div>
+      <div class="colorSelect hidden">
+        <div>
+          <p>Цвет салона</p>
+          <div class="colors">
+            <div
+              data-color="black"
+              style="
+                width: 30px;
+                height: 30px;
+                border-radius: 100%;
+                background-color: black;
+                cursor: pointer;
+                margin-top: 20px;
+              "
+            ></div>
+            <div
+              data-color="bronze"
+              style="
+                width: 30px;
+                height: 30px;
+                border-radius: 100%;
+                background-color: burlywood;
+                cursor: pointer;
+                margin-top: 20px;
+              "
+            ></div>
+            <div
+              data-color="white"
+              style="
+                width: 30px;
+                height: 30px;
+                border-radius: 100%;
+                background-color: rgb(214, 206, 206);
+                cursor: pointer;
+                margin-top: 20px;
+              "
+            ></div>
+          </div>
+        </div>
+        <div>
+          <p>Вид автомобиля</p>
+          <div class="switch">
+            <div class="switch-btn carVisibility off"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
