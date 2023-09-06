@@ -90,6 +90,8 @@ openCarBtns.forEach((openCarBtn) => {
       openCarBtn.classList.add("off");
       parent.style.backgroundColor = "gray";
       car.classList.add("scale");
+      leftWheel.classList.add("hidden");
+      rightWheel.classList.add("hidden");
       setTimeout(() => {
         car.classList.add("decrease");
         car.src = "img/image1black.png";
